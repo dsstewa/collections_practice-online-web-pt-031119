@@ -67,7 +67,7 @@ def kesha_maker(array)
  def add_s(a)
  a.each_with_index.collect do |word, index|
    if index == 1
-     
+     a[index]
    else
      a[index]<< "s"
      
