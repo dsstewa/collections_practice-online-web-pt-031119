@@ -65,7 +65,18 @@ def kesha_maker(array)
  end
  
  def add_s(a)
- binding.pry
+ a.each_with_index.collect do |word, index|
+   if index == 1
+     false
+   else
+     a[index]<< "s"
+     
+   end
+   
+   
+ end
+ 
+# binding.pry
  end
  
  
