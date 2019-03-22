@@ -35,7 +35,7 @@ def kesha_maker(array)
  new_array = []
  array.each_with_index do |names,index|
    new_array[index] << names[0..1]
-   new_array[index] << $
+   new_array[index] << "$"
    new_array[index] << names[3..]
    
    binding.pry
