@@ -19,8 +19,8 @@ def swap_elements(array)
  #binding.pry
  new_array = []
   #binding.pry
-  new_array[0] = array[2]
-  new_array[1] = array[1]
-  new_array[2] = array[0]
+  new_array[0] = array[0]
+  new_array[1] = array[2]
+  new_array[2] = array[1]
 return new_array
 end
