@@ -64,7 +64,8 @@ def kesha_maker(array)
    
  end
  
- 
- 
+ def add_s(a)
+ binding.pry
+ end
  
  
