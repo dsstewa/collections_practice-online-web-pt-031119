@@ -32,4 +32,8 @@ end
 
 def kesha_maker(array)
  binding.pry 
+ new_array = []
+ array.each do |names|
+   
+ 
  end
