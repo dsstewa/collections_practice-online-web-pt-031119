@@ -19,19 +19,8 @@ def swap_elements(array)
  #binding.pry
  new_array = []
   #binding.pry
-  array.each_with_index  do |value,index|
-    #binding.pry
-    if index == 0 
-      new_array << value
-    elsif index == 2
-      new_array << value
-    end
-    
-  end
-    #binding.pry
-    array[0] = new_array[1]
-    array[2] = new_array[0]
-  #binding.pry
-  #binding.pry
-  return array
+  new_array[0] = array[2]
+  new_array[1] = array[1]
+  new_array[2] = array[0]
+return new_array
 end
