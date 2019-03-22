@@ -41,5 +41,5 @@ def kesha_maker(array)
    
   # binding.pry
  end
- 
+ return new_array
  end
